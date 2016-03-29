@@ -1,0 +1,16 @@
+{
+  "name": "My Integration",
+  "description": "An integration that does wonderful things",
+  "key": "com.example.myintegration",
+  "links": {
+      "homepage": "https://foxden.io",
+      "self": "https://example.com/myintegration/capabilities"
+    },
+  "capabilities": {
+      "hipchatApiConsumer": {
+            "scopes": [
+                    "send_notification"
+                  ]
+          }
+    }
+}
